@@ -1,6 +1,3 @@
-물론. README에 바로 넣을 수 있게 한국어로 정리하면 아래처럼 쓰면 돼.
-
-```markdown
 ## Pointwise Relevance Gate Ablation
 
 SQuAD와 HotpotQA 각각 100개 샘플을 대상으로 두 가지 retrieval 전략을 비교했다.
@@ -85,7 +82,7 @@ Retrieval step 감소
 하지만 bridge evidence 제거 가능성 증가
     ↓
 Multi-hop recall 감소
-```
+
 
 반대로 `no_gate`는 더 많은 context를 유지하기 때문에 일부 irrelevant document도 포함되지만, 이후 ReAct step에서 필요한 intermediate evidence를 보존할 가능성이 높다.
 
